@@ -8,8 +8,7 @@ const Skills = lazy(() => import("./components/Skills"));
 
 function App() {
   return (
-    <main className="mx-auto max-w-7xl overflow-x-hidden antialiased">
-      <div className="bg-image fixed insert-0 bg-fixed bg-center"></div>
+    <main className="bg-image mx-auto max-w-7xl overflow-x-hidden antialiased">
       <div className="relative mt-3 z-10">
         <Navbar />
         <Hero />
