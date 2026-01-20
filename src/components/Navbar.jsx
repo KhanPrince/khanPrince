@@ -29,9 +29,9 @@ const Navbar = () => {
         {/* Desktop Menu*/}
         <div className="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30 py-2 backdrop=blur-lg lg:flex">
           <div className="flex items-center justify-between gap-6">
-            <div>
+            <div className="w-10">
               <a href="/">
-                <span className="uppercase">Khan Prince</span>
+                <img className="" src="/src/assets/kplogo.png" alt=" kp" />
               </a>
             </div>
             <div>
@@ -54,9 +54,13 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className="py-2 backdrop-blur-md lg:hidden">
           <div className="flex items-center justify-between">
-            <div>
+            <div className="">
               <a href="#">
-                <span className="pl-2 uppercase"> khan Prince </span>
+                <img
+                  className=" m-2 h-8 w-10"
+                  src="/src/assets/kplogo.png"
+                  alt="kp"
+                />
               </a>
             </div>
             <div className="flex items-center">

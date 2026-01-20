@@ -4,7 +4,7 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
-import personImage from "../assets/testimonial.webp";
+import personImage from "../assets/Khan.webp";
 
 import {
   RiHtml5Line,
@@ -12,12 +12,9 @@ import {
   RiJavascriptLine,
   RiReactjsLine,
   RiNodeTree,
+  RiGithubFill,
 } from "@remixicon/react";
-import {
-  RiDatabaseLine,
-  RiCodeSSlashLine,
-  RiGitBranchLine,
-} from "@remixicon/react";
+import { RiDatabaseLine, RiCodeSSlashLine } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -119,8 +116,8 @@ export const SKILLS = [
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
-    icon: <RiGitBranchLine className="text-pink-400" />,
+    name: "GitHub",
+    icon: <RiGithubFill className="text-pink-400" />,
   },
 ];
 
