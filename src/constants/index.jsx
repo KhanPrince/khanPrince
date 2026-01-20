@@ -4,7 +4,6 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
-import personImage from "../assets/Khan.webp";
 
 import {
   RiHtml5Line,
@@ -139,11 +138,3 @@ export const EDUCATION = [
       "Focused on advanced software engineering concepts, system design, and database management systems",
   },
 ];
-
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
