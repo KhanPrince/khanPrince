@@ -5,7 +5,7 @@ import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import logo from "../assets/kplogo.png";
-import photo from "../assets/Khan.webp";
+import photo from "../assets/photo.webp";
 import resume from "../public/Basharat-Ashraf-Resume.pdf";
 
 import {
