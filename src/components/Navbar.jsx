@@ -56,11 +56,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <div className="">
               <a href="#">
-                <img
-                  className=" m-2 h-8 w-10"
-                  src="/src/assets/kplogo.png"
-                  alt="kp"
-                />
+                <img className=" m-2 h-8 w-10" src={LOGO.logo} alt="kp" />
               </a>
             </div>
             <div className="flex items-center">
