@@ -77,7 +77,7 @@ const Hero = () => {
         {PROFILE.subheading}
       </p>
       <a
-        href="/src/public/Basharat-Ashraf-Resume.pdf"
+        href={PROFILE.resume}
         target="_blank"
         rel="noopener noreferrer"
         download
@@ -88,7 +88,7 @@ const Hero = () => {
       </a>
       <img
         loading="lazy"
-        src="/src/assets/Khan.webp"
+        src={PROFILE.photo}
         alt={PROFILE.name}
         width={400}
         height="400"

@@ -1,6 +1,6 @@
 import { RiCloseLine, RiMenu3Line } from "@remixicon/react";
 import { useState } from "react";
-import { NAVIGATION_LINKS } from "../constants";
+import { LOGO, NAVIGATION_LINKS } from "../constants";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between gap-6">
             <div className="w-10">
               <a href="/">
-                <img className="" src="/src/assets/kplogo.png" alt=" kp" />
+                <img className="" src={LOGO.logo} alt=" kp" />
               </a>
             </div>
             <div>

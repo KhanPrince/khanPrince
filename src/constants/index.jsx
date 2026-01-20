@@ -4,6 +4,9 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
+import logo from "../assets/kplogo.png";
+import photo from "../assets/Khan.webp";
+import resume from "../public/Basharat-Ashraf-Resume.pdf";
 
 import {
   RiHtml5Line,
@@ -15,6 +18,10 @@ import {
 } from "@remixicon/react";
 import { RiDatabaseLine, RiCodeSSlashLine } from "@remixicon/react";
 
+export const LOGO = {
+  logo: logo,
+};
+
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
@@ -23,6 +30,8 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
+  photo: photo,
+  resume: resume,
   name: "Basharat Ashraf",
   role: "Full Stack Developer",
   subheading: "Crafting digital experiences with code and creativity",
