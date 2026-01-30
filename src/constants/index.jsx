@@ -40,12 +40,12 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Movie Searching App",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "A React-based movie discovery app with real backend integration. Users can search millions of movies, discover trending selections, and experience seamless infinite scroll. The app intelligently ranks movies based on user search history",
+    techStack: ["React", "Node.js", "Appwrite", "TMDB API", "Vite", "Vercel"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://netflix-clone-seven-phi-52.vercel.app",
   },
   {
     id: 2,
