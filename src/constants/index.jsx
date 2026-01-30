@@ -43,7 +43,15 @@ export const PROJECTS = [
     title: "Movie Searching App",
     description:
       "A React-based movie discovery app with real backend integration. Users can search millions of movies, discover trending selections, and experience seamless infinite scroll. The app intelligently ranks movies based on user search history",
-    techStack: ["React", "Node.js", "Appwrite", "TMDB API", "Vite", "Vercel"],
+    techStack: [
+      "React",
+      "Node.js",
+      "Custom Hooks",
+      "Appwrite",
+      "TMDB API",
+      "Vite",
+      "Vercel",
+    ],
     imgSrc: project1,
     link: "https://netflix-clone-seven-phi-52.vercel.app",
   },
