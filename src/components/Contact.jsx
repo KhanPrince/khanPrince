@@ -55,7 +55,7 @@ const Contact = () => {
         </p>
         <div className="mt-8 flex justify-center space-x-6">
           <a
-            href="https://www.linkedin.com/in/khan-prince-87562a190"
+            href="www.linkedin.com/in/basharat-ashraf-87562a190"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-icon"
