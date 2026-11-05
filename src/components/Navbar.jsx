@@ -27,7 +27,7 @@ const Navbar = () => {
     <div>
       <nav className="fixed left-0 right-0 top-0 z-50 lg:top-4">
         {/* Desktop Menu*/}
-        <div className="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30 py-2 backdrop=blur-lg lg:flex">
+        <div className="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30 py-2 backdrop-blur-lg lg:flex">
           <div className="flex items-center justify-between gap-6">
             <div className="w-10">
               <a href="/">

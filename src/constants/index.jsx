@@ -57,12 +57,12 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "AI-powered trip planning app",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
+      "Admins generate complete day-by-day itineraries with Gemini, and anyone can browse the results. Built with React Router 7 (SSR), Appwrite, Gemini and Unsplash.",
+    techStack: ["React", "Appwrite", "Gemini", "Unsplash", "Vite", "Vercel"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://travel-agency-dashboard-eight-gray.vercel.app/",
   },
   {
     id: 3,
