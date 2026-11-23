@@ -64,42 +64,6 @@ export const PROJECTS = [
     imgSrc: project2,
     link: "https://travel-agency-dashboard-eight-gray.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
-    imgSrc: project3,
-    link: "https://myportfolio.com",
-  },
-  {
-    id: 4,
-    title: "Blog Platform",
-    description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    imgSrc: project4,
-    link: "https://example-blogplatform.com",
-  },
-  {
-    id: 5,
-    title: "Task Management App",
-    description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
-    link: "https://example-taskapp.com",
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
-    link: "https://example-learningplatform.com",
-  },
 ];
 
 export const SKILLS = [
